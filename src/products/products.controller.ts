@@ -8,8 +8,8 @@ import { PaginationDto } from 'src/common/dtos/pagination.dto';
 
 import { Auth, GetUser } from 'src/auth/decorators';
 import { User } from 'src/auth/entities/users.entity';
-import { ValidRoles } from 'src/interfaces';
 import { Product } from './entities';
+import { ValidRoles } from 'src/auth/interfaces';
 
 
 
