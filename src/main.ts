@@ -39,7 +39,7 @@ async function bootstrap() {
 
   app.useStaticAssets(join(__dirname, '..', 'public'));
 
-  await app.listen(process.env.PORT);
-  logger.log(`App running on port ${ process.env.PORT }`)
+  await app.listen(process.env.PORT || 3002);
+  logger.log(`App running on port ${ process.env.PORT || 3002 }`)
 }
 bootstrap();
