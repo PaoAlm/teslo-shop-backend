@@ -11,7 +11,7 @@ import { RoleProtected } from './decorators/role-protected.decorator';
 import { CreateUserDto, LoginUserDto } from './dto';
 import { User } from './entities/users.entity';
 import { UserRoleGuard } from './guards/user-role/user-role.guard';
-import { ValidRoles } from 'src/interfaces';
+import { ValidRoles } from './interfaces';
 
 @ApiTags('Auth')
 @Controller('auth')
